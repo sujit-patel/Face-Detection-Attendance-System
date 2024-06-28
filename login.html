@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="login.css">
+<div class="container">
+    <form action="login.php" method="post">
+        <div>
+            <h1>Login</h1>
+        </div>
+        <div class="block">
+            <label for="">Chose Your Authority</label>
+            <select name="authority" id="authority">
+                <option value="Student">Student</option>
+                <option value="Principal">Principal</option>
+                <option value="Faculty">Faculty</option>
+            </select>
+        </div>
+        <div class="block">
+            <label for="">UserName</label>
+            <input type="text" placeholder="UserName" value="UserName" required>
+        </div>
+        <div class="block">
+            <label for="">Password</label>
+            <input type="password" placeholder="Password" value="Password" required>
+        </div>
+        <div class="block" id="btn2">
+            <input id="button" type="submit">
+            <input id="button" type="reset">
+        </div>
+        <div class="block" id="option">
+            <p>Don't have an account?</p>
+            <a href="signup.html" style="color: rgb(0, 60, 255);text-decoration: underline;">Sign Up</a>
+        </div>
+    </form>
+</div>
