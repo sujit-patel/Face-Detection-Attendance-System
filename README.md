@@ -1,2 +1,8 @@
 # Face-Detection-Attendance-System
-This project created by me. In this system, attendance is recorded using facial recognition and stored in an Excel file. The project utilizes the Python programming language.
+
+In this system, attendance is recorded using facial recognition and stored in an Excel file.
+
+First, the student's face is scanned and saved with a unique ID. When attending, the subject name is entered first. Then, attendance is marked by the student's face.
+
+## Advantage:
+Attendance can be easily analyzed.
